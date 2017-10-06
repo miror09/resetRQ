@@ -56,6 +56,7 @@ public class resetRQ {
 			SimpleDateFormat sdf = new SimpleDateFormat("MM.dd.yyyy");
 
 			ce = new CEConnection();
+			System.out.println("\n\tGetting connection to FileNet CE Produkcia ...");
 			ce.establishConnection("GCDAdmin","sys","FileNetP8","t3://st-srv1:7001/FileNet/Engine/");
 			os1 = ce.fetchOS("Produkcia");
 			System.out.println("\n\tConnection to FileNet CE " + os1.get_DisplayName() + " successful.");
