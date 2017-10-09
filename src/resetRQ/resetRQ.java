@@ -59,7 +59,7 @@ public class resetRQ {
 			System.out.println("\n\tGetting connection to FileNet CE -> Produkcia ...");
 			ce.establishConnection("GCDAdmin","sys","FileNetP8","t3://st-srv1:7001/FileNet/Engine/");
 			os1 = ce.fetchOS("Produkcia");
-			System.out.println("\n\tConnection to FileNet CE ObjectStore" + os1.get_DisplayName() + " successful!");
+			System.out.println("\n\tConnection to FileNet CE --> ObjectStore" + os1.get_DisplayName() + " successful!");
 			
 			
 			System.out.println("\n\tSearching ...\n");
