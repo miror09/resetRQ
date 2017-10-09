@@ -12,7 +12,7 @@ rem -----------------------------------------------------------------------
 rem Folder locations -- may need to be changed for your environment
 rem -----------------------------------------------------------------------
 
-set APP_PATH=d:\eclipse\eclipse-workspace\resetRQ\
+set APP_PATH=d:\Jenkins\workspace\resetRQ\
 set CE_PATH=D:\IBM\FileNet\ContentEngine
 set WEBLOGIC_PATH=d:\Oracle\Weblogic\wlserver
 
